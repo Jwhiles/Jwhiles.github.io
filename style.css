@@ -9,8 +9,8 @@ body {
 
 .left {
     display: inline-block;
-    width: 52%;
-    margin: 10px 5px;
+    width: 40%;
+    margin: 10px 5px 0px 30px;
     background-color: aqua;
     padding: 20px 20px 20px 20px;
     border: 5px solid black;
@@ -19,7 +19,7 @@ body {
 
 .right {
     width: 31%;
-    margin: 30px 5px;
+    margin: 30px 30px;
     background-color: whitesmoke;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
@@ -30,7 +30,7 @@ body {
 
 .right2 {
     width: 31%;
-    margin: 30px 5px;
+    margin: 30px 30px;
     background-color: whitesmoke;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
