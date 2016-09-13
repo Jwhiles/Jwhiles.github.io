@@ -1,6 +1,32 @@
 html {
     font-size: 10px;
-    font-family: 'Pacifico', sans-serif;
+    font-family: 'Pacifico', Futura, sans-serif;
+}
+
+a {
+    font-size: 18px;
+    font-family: futura;
+    
+}
+
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black; 
 }
 
 body {
@@ -65,7 +91,7 @@ h1 {
 .smallerimage {
     height: auto;
     width: 75%;
-    border: 3px dashed red;
+    border: 3px dashed green;
     display: block;
     margin: auto;
     padding: 10px;
