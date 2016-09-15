@@ -29,6 +29,26 @@ var quotes = [
     {
         quote: 'The beginning of knowledge is the discovery of something we do not understand.',
         author: 'Frank Herbert'
+    },
+    
+    {
+        quote: 'We can only see a short distance ahead, but we can see plenty there that needs to be done.',
+        author: 'Alan Turing'
+    },
+    
+    {
+        quote: "They thought I was a Surrealist, but I wasn't. I never painted dreams. I painted my own reality.",
+        author: "Frida Kahlo"
+    },
+    
+    {
+        quote: "Have no fear of perfection - you'll never reach it.",
+        author: "Salvador Dali"
+    },
+    
+    {
+        quote: "Birds born in cages think that flying is a disease.",
+        author: "Alejandro Jodorowsky"
     }
 ];
 
