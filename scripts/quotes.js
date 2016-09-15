@@ -29,11 +29,6 @@ var quotes = [
     {
         quote: 'The beginning of knowledge is the discovery of something we do not understand.',
         author: 'Frank Herbert'
-    },
-    
-    {
-        quote: 'The person with all the answers you need is you. Just trust yourself',
-        author: 'Sandra Whiles'
     }
 ];
 
