@@ -46,6 +46,15 @@ h1 {
     display: inline-block;
     font-size: 16px;
     border-radius: 5px;
+    transition: box-shadow 1s
+}
+
+#newquote:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#newquote:active {
+    top: 201px;
 }
 
 h1 {
