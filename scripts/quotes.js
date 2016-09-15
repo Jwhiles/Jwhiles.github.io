@@ -37,11 +37,20 @@ var quotes = [
     }
 ];
 
+var current = 0;
+
+function ranNum(y){
+    var now = Math.floor(Math.random() * y.length);
+    if(now === current){
+        return ranNum(y)
+    } else {
+        current = now;
+        return current
+    }
+}
 
 function quoteChoose(x) {
-    var choose = Math.floor(Math.random() * x.length)
-    console.log(choose)
-    console.log(x[choose].quote)
+    var choose = ranNum(x)
     document.getElementById('thequote').innerHTML = x[choose].quote;
     document.getElementById('theauthor').innerHTML = x[choose].author;
 }    
