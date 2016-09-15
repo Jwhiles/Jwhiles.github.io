@@ -1,0 +1,98 @@
+html {
+    font-family: futura;
+    text-align: center;
+    background-color: antiquewhite;
+    color: dimgrey;
+}
+div {
+transform: rotate(0deg);
+transition: transform 10s;
+}
+
+div:hover {
+transform: rotate(0.5deg);
+}
+
+.mainbody {
+    background-color: darkgray;
+    margin: auto;
+    padding: 10px;
+    width: 88%;
+    border-radius: 5px;
+}
+
+.photo-holder {
+    background-color: lightgrey;
+    padding-top: 4px;
+    width: 88%;
+    margin: auto;
+    border-radius: 5px;
+        
+}
+
+.photo-holder:hover {
+    transform: rotate(-1.1deg);
+}
+
+ul {
+    transform: skewX(0deg);
+    transition: transform 5s;
+    max-width: 60%;
+    margin: auto;
+    text-align: left;
+    font-family: helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+ul:hover{
+    transform: skewX(1deg);
+}
+img {
+    width: 99%;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 50px;
+    padding: 0px;
+    margin-bottom: 6px;
+    
+}
+
+h2 {
+    font-size: 18px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 14px;
+    font-style: italic;
+    padding: 0px;
+    margin-top: 0px;
+    padding-bottom: 6px;
+    padding-top: 0px;
+}
+
+h4 {
+    font-size: 30px;
+    padding: 0px;
+    margin-bottom: 6px;
+}
+
+
+.quotes {
+    font-size: 20px;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
